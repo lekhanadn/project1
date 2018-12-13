@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test  name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="http://www.google.com">
+  </parameter>
+    <classes>
+      <class name="crossbrowser.crossbrowsertesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Test1">
+  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="url" value="http://www.
+  /gmail.com"></parameter>
+    <classes>
+      <class name="crossbrowser.crossbrowsertesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+</suite> <!-- Suite -->
